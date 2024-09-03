@@ -12,7 +12,7 @@ class SunMoonToggle extends StatefulWidget {
     required this.onToggle,
     this.width = 300,
     this.height = 100,
-    this.duration = const Duration(milliseconds: 600),
+    this.duration = const Duration(milliseconds: 1000),
   });
 
   /// This property is required.
@@ -20,7 +20,7 @@ class SunMoonToggle extends StatefulWidget {
 
   /// The duration in milliseconds to change the state of the switch
   ///
-  /// Defaults to the value of 600 milliseconds.
+  /// Defaults to the value of 1000 milliseconds.
   final Duration duration;
 
   /// Called when the user toggles the switch.
