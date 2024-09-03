@@ -26,8 +26,8 @@ class MoonBackground extends StatelessWidget {
       duration: duration,
       child: Container(
         clipBehavior: Clip.hardEdge,
-        width: 300,
-        height: 100,
+        width: width,
+        height: height,
         alignment: Alignment.bottomCenter,
         decoration: BoxDecoration(
           color: AppColor.nightPrimary,

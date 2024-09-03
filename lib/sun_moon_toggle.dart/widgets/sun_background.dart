@@ -30,8 +30,8 @@ class SunBackground extends StatelessWidget {
         duration: duration,
         child: Container(
           clipBehavior: Clip.antiAliasWithSaveLayer,
-          width: 300,
-          height: 100,
+          width: width,
+          height: height,
           alignment: _toggleAnimation.value,
           decoration: BoxDecoration(
               color: AppColor.dayPrimary,
